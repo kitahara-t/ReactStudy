@@ -6,11 +6,9 @@ import {
   Link
 } from 'react-router-dom'
 
-
 import Start from './components/Start';
 import Menu from './components/Menu';
 import AozoraList from './components/AozoraList';
-
 
 function App() {
   return (
@@ -22,14 +20,12 @@ function App() {
           <Route path='/components/AozoraList' component={AozoraList}/>
          </div>
         </Router>
-        <Router>
-        <div>
-           <Link to={`/components/Start`}>Start</Link>
-           <br />
-           <br />
-        </div>
-        </Router>
-    </div>
+        <footer>
+         <br />
+         <br />
+         <a href="http://localhost:3000/components/Start"> START </a>
+        </footer>
+     </ div>
   );
 }
 
