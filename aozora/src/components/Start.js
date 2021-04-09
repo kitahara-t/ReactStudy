@@ -5,6 +5,7 @@ class Start extends React.Component {
     render() {
         return (
             <div>
+                Start Page<br />
                 <Link to={`/components/Menu`}>Menu</Link>
             </div>
         );
